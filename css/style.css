@@ -271,6 +271,18 @@ footer{
     flex-wrap: wrap-reverse;
 }
 
+.footer_section1_card1 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.footer_section1_card1 ul li a i{
+    color: white;
+}
+
 .footer_ul{
     list-style-type: none;
     line-height: 30px;
@@ -318,12 +330,25 @@ footer{
 
 .footer_section2 p {
     text-align: right;
-    margin-right: 90px;
+    margin-right: 9.5vw;
     font-style: normal;
     font-weight: 500;
     font-size: 12.5px;
     line-height: 18px;
     color: #8C8C94
+}
+
+
+.get_started_button:hover, ul li a:hover, .footer_section1_card3 button:hover, .get_started_button_white:hover {
+    filter: brightness(140%);
+}
+
+.footer_ul li a:hover {
+    color: #F3603B;
+}
+
+.footer_section1_card1 ul li a i:hover {
+    color: #F3603B;
 }
 
 @media (max-width:600px) {
@@ -358,7 +383,6 @@ footer{
     .ppal_1_section1 p {
         width: 100vw;
         text-align: center;
-        /* background-color: red; */
         font-size: 20.5584px;
         line-height: 157.1%;
         padding: 0 10px;
@@ -415,6 +439,14 @@ footer{
 
     .footer_section1{
         gap: 30px;
+    }
+
+    .footer_section1_card1 ul{
+        gap: 10px;
+    }
+    
+    .footer_section1_card1 ul li a i{
+        font-size: 2em;
     }
 
     .footer_section1_card1{
