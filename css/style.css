@@ -302,6 +302,7 @@ footer{
     border-radius: 50px;
     border: none;
     padding-left: 10px;
+    outline: none;
 }
 
 .footer_section1_card2 {
@@ -339,8 +340,12 @@ footer{
 }
 
 
-.get_started_button:hover, ul li a:hover, .footer_section1_card3 button:hover, .get_started_button_white:hover {
+.get_started_button:hover, .footer_section1_card3 button:hover, .get_started_button_white:hover {
     filter: brightness(140%);
+}
+
+ul li a:hover{
+    opacity: 0.6;
 }
 
 .footer_ul li a:hover {
@@ -348,6 +353,11 @@ footer{
 }
 
 .footer_section1_card1 ul li a i:hover {
+    color: #F3603B;
+}
+
+.footer_section1_card3 input:focus{
+    border: 2px solid #F3603B;
     color: #F3603B;
 }
 
