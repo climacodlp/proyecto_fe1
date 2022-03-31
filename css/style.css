@@ -344,7 +344,7 @@ footer{
     filter: brightness(140%);
 }
 
-ul li a:hover{
+header ul li a:hover{
     opacity: 0.6;
 }
 
